@@ -3,13 +3,13 @@
 <%= form_for :user, url: logresult_path do |f| %>
 	
 
-	<%= f.label :email %>
-	<%= f.text_field :email %>
+	<p><%= f.label :email %><br>
+	<%= f.text_field :email %></p>
 
-	<%= f.label :password %>
-	<%= f.password_field :password %>
+	<p><%= f.label :password %><br>
+	<%= f.password_field :password %></p>
 
 
-	<%= f.submit "Go" %>
+	<p><%= f.submit "Go" %></p>
 
 <%end%>
